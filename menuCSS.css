@@ -1,0 +1,38 @@
+*{
+    color: black;
+    text-align: left;
+}
+
+
+
+/*remover maracadores, margem e padding da lista */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:  hidden;
+    background-color: #f1f1f1;
+/*posicionar menu no inicio da pagina */
+position: fixed;
+top: 0;
+width: 100%;
+}
+li {
+   float: left;
+   border-right: 2px solid #bbb;
+    }
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: darkred;
+}
+/* muda a cor do link ao passar o mouse */
+    li a:hover {
+        background-color: ;
+        color: white;
+    }
+li:last-child{
+    border-right: none;
+}
